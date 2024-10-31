@@ -1,0 +1,269 @@
+.narnoo_attr_img_wrapper {
+
+    height: 145px;position: relative; overflow:hidden;
+
+}
+
+
+
+.narnoo_attr_img_wrapper img{
+
+    position: absolute;
+
+    top:-100%; left:0; right: 0; bottom:-100%;
+
+    margin: auto;
+
+}
+
+
+
+.narnoo_product_listing_link {
+
+	height: 68px;
+
+}
+
+
+
+.wrap.twentyseventeen{
+
+	padding-left: 15px;
+
+	padding-right: 15px;
+
+	max-width: 1170px;
+
+}
+
+
+
+.has-sidebar:not(.error404) .wrap.twentyseventeen #primary{
+
+	width: 75%;
+
+	padding-right: 15px;
+
+}
+
+
+
+.has-sidebar .wrap.twentyseventeen #secondary{
+
+	width: 25%;
+
+	padding-left: 15px;
+
+	padding-right: 15px;
+
+}
+
+
+
+#narnoo_categories_post .entry-content p{
+
+	margin-top: 20px;
+
+}
+
+.narnno-subcategory{
+	max-width: 100% !important;
+}
+
+.product-social-listing {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.product-social-listing ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    /* margin: 0 5px; */
+}
+
+.product-social-listing ul li {
+    padding: 0px 4px;
+    border: 1px solid #000;
+    margin: 0 5px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    line-height: 40px;
+    background-color: #000;
+}
+.product-social-listing ul li a{
+	color: #fff;
+}
+
+
+/**** Media Queries ****/
+
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+
+
+	.has-sidebar .wrap.twentyseventeen #secondary{
+
+		padding-left: 0px;
+
+	}
+
+
+
+}
+
+
+
+@media(max-width: 991px) {
+
+
+
+	.site-content{
+
+		padding: 3em 0 0 !important;
+
+	}
+
+
+
+	.has-sidebar:not(.error404) .wrap.twentyseventeen #primary{
+
+		width: 100%;
+
+		margin-bottom: 30px;
+
+	}
+
+
+
+	.has-sidebar .wrap.twentyseventeen #secondary{
+
+		width: 100%;
+
+		padding-bottom: 0px;
+
+	}
+
+
+
+	.site-footer{
+
+		margin-top: 0px !important;
+
+	}
+
+
+
+	.twentyseventeen .entry-header{
+
+		width: 100% !important;
+
+	}
+
+
+
+}
+
+
+
+@media(max-width: 767px) {
+
+
+
+    .search-form .search-submit {
+
+        top: auto !important;
+
+    }
+
+
+
+	.wrap{
+
+		padding-left: 15px !important;
+
+		padding-right: 15px !important;
+
+	}
+
+
+
+	.has-sidebar:not(.error404) .wrap.twentyseventeen #primary{
+
+		width: 100%;
+
+		padding-right: 0px;
+
+	}
+
+
+
+	.has-sidebar .wrap.twentyseventeen #secondary{
+
+		width: 100%;
+
+	}
+
+
+
+	.widget{
+
+		padding-bottom: 2em !important;
+
+	}
+
+
+
+	.widget{
+
+		text-align: center;
+
+	}
+
+
+
+	.site-footer .wrap{
+
+		text-align: center;
+
+		padding-top: 15px !important;	
+
+		padding-bottom: 10px !important; 	
+
+	}
+
+
+
+	h5{
+
+		text-align: center;
+
+	}
+
+
+
+	.wrapper-form-custom label {
+
+		text-align: center;
+
+	}
+
+
+
+	.wrapper-form-custom input[type="checkbox"] {
+
+		display: inline-block;
+
+		width: 10%;		
+
+	}
+
+
+
+}
